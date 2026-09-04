@@ -1,9 +1,11 @@
 import TxtFileCompression.CountCharacters;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+public class Main {
+    //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public static void main(String[] args) throws FileNotFoundException {
+    public static void main() {
 
-    CountCharacters.userInput();
+        CountCharacters.userInput();
 
+    }
 }
